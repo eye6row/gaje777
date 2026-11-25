@@ -103,3 +103,5 @@ background:radial-gradient(circle,#0d0d0d1c 1px,transparent 1.4px) 0 0/7px 7px,#
 .piece .slot img{position:static;height:auto;display:block;object-fit:contain}
 .piece .slot:hover img{transform:none}
 .shop-grid{align-items:start}
+.page-foot{padding:20px clamp(20px,4vw,56px);border-top:1px solid var(--ink)}
+.page-foot a{text-decoration:none}
