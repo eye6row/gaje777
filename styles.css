@@ -99,3 +99,7 @@ background:radial-gradient(circle,#0d0d0d1c 1px,transparent 1.4px) 0 0/7px 7px,#
 .commission .barcode{margin-top:48px}
 .commission .book-grid .serif{margin-bottom:16px}
 @media(max-width:820px){.shop-grid{grid-template-columns:1fr}}
+.piece .slot{aspect-ratio:auto}
+.piece .slot img{position:static;height:auto;display:block;object-fit:contain}
+.piece .slot:hover img{transform:none}
+.shop-grid{align-items:start}
