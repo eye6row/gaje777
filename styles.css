@@ -86,3 +86,16 @@ background:radial-gradient(circle,#0d0d0d1c 1px,transparent 1.4px) 0 0/7px 7px,#
   .ticket{transform:none}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+
+/* shop */
+.folio a{text-decoration:none}
+.shop-intro{font-size:18px;max-width:58ch;margin-bottom:32px}
+.shop-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,4vw,56px)}
+.piece .slot{aspect-ratio:3/4}
+.piece-info{padding-top:18px}
+.piece-info .serif{margin:6px 0}
+.price{font-size:clamp(40px,5vw,64px);margin-top:12px}
+.shop-note{margin-top:32px}
+.commission .barcode{margin-top:48px}
+.commission .book-grid .serif{margin-bottom:16px}
+@media(max-width:820px){.shop-grid{grid-template-columns:1fr}}
